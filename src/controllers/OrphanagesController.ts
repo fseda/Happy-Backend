@@ -54,7 +54,7 @@ export default {
             about,
             instructions,
             openingHours,
-            openOnWeekends,
+            openOnWeekends: openOnWeekends === 'true' ? true : false,
             images,
         }
 
